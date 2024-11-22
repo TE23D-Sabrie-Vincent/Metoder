@@ -1,8 +1,15 @@
-﻿static void hello(){
-    for (int i = 0; i < 32; i++){
-    System.Console.WriteLine("Hello world");
-    }
-    Console.ReadLine();
-}
+﻿// static void hello(){
+//     for (int i = 0; i < 32; i++){
+//     System.Console.WriteLine("Hello world");
+//     }
+//     Console.ReadLine();
+// }
 
-hello();
+// hello();
+
+void kvadrat(int num){
+num = num*num;
+ System.Console.WriteLine(num); 
+ Console.ReadLine();
+} 
+kvadrat(2);
