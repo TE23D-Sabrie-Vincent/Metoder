@@ -29,12 +29,18 @@
 // Console.ReadLine();
 
 
-float CircleArea(float radius){
-    return radius * radius * MathF.PI;
-}
-// Detta ovanför är för övning 5
+// float CircleArea(float radius){
+//     return radius * radius * MathF.PI;
+// }
+// // Detta ovanför är för övning 5
 
-// float area = CircleArea(5);
-// System.Console.WriteLine(area);
-// Console.ReadLine();
-// Detta kan du ignorera
+// // float area = CircleArea(5);
+// // System.Console.WriteLine(area);
+// // Console.ReadLine();
+// // Detta kan du ignorera
+
+void GetNumberInput(){
+    while (int.(TryParse)){
+
+    }
+}
