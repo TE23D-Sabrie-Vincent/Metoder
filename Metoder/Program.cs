@@ -20,10 +20,21 @@
 // multi(9,2);
 // Console.ReadLine();
 
-float RightTriangleArea(float num1, float num2){
-    return num1 *num2 / 2;
-}
+// float RightTriangleArea(float num1, float num2){
+//     return num1 *num2 / 2;
+// }
 
-float area = RightTriangleArea(2,5);
-System.Console.WriteLine(area);
-Console.ReadLine();
+// float area = RightTriangleArea(2,5);
+// System.Console.WriteLine(area);
+// Console.ReadLine();
+
+
+float CircleArea(float radius){
+    return radius * radius * MathF.PI;
+}
+// Detta ovanför är för övning 5
+
+// float area = CircleArea(5);
+// System.Console.WriteLine(area);
+// Console.ReadLine();
+// Detta kan du ignorera
