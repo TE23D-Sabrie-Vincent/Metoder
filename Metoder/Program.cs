@@ -39,15 +39,33 @@
 // // Console.ReadLine();
 // // Detta kan du ignorera
 
-int GetNumberInput()
+// int GetNumberInput()
+// {
+//     string input = Console.ReadLine();
+//     int number;
+//     while (!int.TryParse(input, out number))
+//     {
+//         System.Console.WriteLine("Skriv ett tal!!!!!");
+//         input = Console.ReadLine();
+//     }
+//     return number;
+// }
+// GetNumberInput();
+
+string GetChoice(string val1, string val2, string val3)
 {
-    string input = Console.ReadLine();
+    System.Console.WriteLine("DU har 3 val, snygging (med rizz :D)");
+    System.Console.WriteLine(val1);
+    System.Console.WriteLine(val2);
+    System.Console.WriteLine(val3);
+    string choice = Console.ReadLine();
     int number;
-    while (!int.TryParse(input, out number))
+    while (!int.TryParse(choice, out number))
     {
-        System.Console.WriteLine("Skriv ett tal!!!!!");
-        input = Console.ReadLine();
+        System.Console.WriteLine("Skriv ett nummer!");
+        choice = Console.ReadLine();
     }
-    return number;
+    return choice;
 }
-GetNumberInput();
+
+GetChoice("Bli freaky med Simon", "Städa Simons toalett efter ha haft taco tallrik", "Bli en tomte");
