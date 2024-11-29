@@ -39,8 +39,15 @@
 // // Console.ReadLine();
 // // Detta kan du ignorera
 
-void GetNumberInput(){
-    while (int.(TryParse)){
-
+int GetNumberInput()
+{
+    string input = Console.ReadLine();
+    int number;
+    while (!int.TryParse(input, out number))
+    {
+        System.Console.WriteLine("Skriv ett tal!!!!!");
+        input = Console.ReadLine();
     }
+    return number;
 }
+GetNumberInput();
