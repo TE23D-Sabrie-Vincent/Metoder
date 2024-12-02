@@ -52,12 +52,44 @@
 // }
 // GetNumberInput();
 
-string GetChoice(string val1, string val2, string val3)
+// string GetChoice(string val1, string val2, string val3)
+// {
+//     System.Console.WriteLine("DU har 3 val, snygging (med rizz :D)");
+//     System.Console.WriteLine(val1);
+//     System.Console.WriteLine(val2);
+//     System.Console.WriteLine(val3);
+//     string choice = Console.ReadLine();
+//     int number;
+//     while (true)
+//     {
+
+
+//         while (!int.TryParse(choice, out number))
+//         {
+//             System.Console.WriteLine("Skriv ett nummer!");
+//             choice = Console.ReadLine();
+//         }
+//         if (number < 1)
+//         {
+//             System.Console.WriteLine("Det finns ingen fråga under 1");
+//         }
+//         else if (number > 3)
+//         {
+//             System.Console.WriteLine("Det finns ingen fråga över 3");
+//         }
+//         else
+//         {
+//             return choice;
+//         }
+//     }
+
+// }
+
+// GetChoice("Bli freaky med Simon", "Städa Simons toalett efter ha haft taco tallrik", "Bli en tomte");
+
+string GetChoice(string[] Choices)
 {
     System.Console.WriteLine("DU har 3 val, snygging (med rizz :D)");
-    System.Console.WriteLine(val1);
-    System.Console.WriteLine(val2);
-    System.Console.WriteLine(val3);
     string choice = Console.ReadLine();
     int number;
     while (true)
